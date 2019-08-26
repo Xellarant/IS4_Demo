@@ -12168,6 +12168,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "IdentityModel >= 3.10.10",
       "IdentityServer4 >= 2.5.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12218,6 +12219,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "IdentityModel": {
+            "target": "Package",
+            "version": "[3.10.10, )"
+          },
           "IdentityServer4": {
             "target": "Package",
             "version": "[2.5.0, )"
