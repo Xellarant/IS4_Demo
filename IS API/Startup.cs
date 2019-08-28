@@ -24,15 +24,29 @@ namespace IS_API
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "https://localhost:44397";
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "api1";
                 });
+
+
+            services.AddCors(options =>
+            {
+                // this defines a CORS policy called "default"
+                options.AddPolicy("default", policy =>
+                {
+                    policy.WithOrigins("https://localhost:44375")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseCors("default");
+
             app.UseAuthentication();
 
             app.UseMvc();
