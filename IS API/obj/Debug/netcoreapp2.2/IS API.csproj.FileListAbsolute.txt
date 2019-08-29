@@ -12,3 +12,17 @@ C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\I
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\bin\Debug\netcoreapp2.2\IS API.pdb
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\IS API.dll
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\IS API.pdb
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\bin\Debug\netcoreapp2.2\IS API.deps.json
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\bin\Debug\netcoreapp2.2\IS API.runtimeconfig.json
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\bin\Debug\netcoreapp2.2\IS API.runtimeconfig.dev.json
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\bin\Debug\netcoreapp2.2\IS API.dll
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\bin\Debug\netcoreapp2.2\IS API.pdb
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.csprojAssemblyReference.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.csproj.CoreCompileInputs.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.RazorAssemblyInfo.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.RazorAssemblyInfo.cs
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.AssemblyInfoInputs.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.AssemblyInfo.cs
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.RazorTargetAssemblyInfo.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.dll
+C:\Users\Ralla\source\repos\IS4 Demo\IS API\obj\Debug\netcoreapp2.2\IS API.pdb

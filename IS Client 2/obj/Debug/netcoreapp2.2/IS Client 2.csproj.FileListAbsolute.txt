@@ -9,3 +9,14 @@ C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client 2.pdb
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.dll
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.pdb
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client 2.deps.json
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client 2.runtimeconfig.json
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client 2.runtimeconfig.dev.json
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client 2.dll
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client 2.pdb
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.csprojAssemblyReference.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.csproj.CoreCompileInputs.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.AssemblyInfoInputs.cache
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.AssemblyInfo.cs
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.dll
+C:\Users\Ralla\source\repos\IS4 Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client 2.pdb

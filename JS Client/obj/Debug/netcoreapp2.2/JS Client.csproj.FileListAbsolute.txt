@@ -12,3 +12,17 @@ C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.
 C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.dll
 C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.pdb
 C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.csprojAssemblyReference.cache
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\bin\Debug\netcoreapp2.2\JS Client.deps.json
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\bin\Debug\netcoreapp2.2\JS Client.runtimeconfig.json
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\bin\Debug\netcoreapp2.2\JS Client.runtimeconfig.dev.json
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\bin\Debug\netcoreapp2.2\JS Client.dll
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\bin\Debug\netcoreapp2.2\JS Client.pdb
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.csprojAssemblyReference.cache
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.csproj.CoreCompileInputs.cache
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.RazorAssemblyInfo.cache
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.RazorAssemblyInfo.cs
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.AssemblyInfoInputs.cache
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.AssemblyInfo.cs
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.RazorTargetAssemblyInfo.cache
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.dll
+C:\Users\Ralla\source\repos\IS4 Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client.pdb
