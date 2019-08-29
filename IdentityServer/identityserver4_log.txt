@@ -2655,3 +2655,39 @@
 2019-08-28 14:42:59.969 -07:00 [INF] Successful signout callback.
 2019-08-28 14:42:59.969 -07:00 [DBG] No client front-channel iframe urls
 2019-08-28 14:42:59.969 -07:00 [DBG] No client back-channel iframe urls
+2019-08-28 15:27:23.095 -07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-08-28 15:27:23.096 -07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-08-28 15:27:23.096 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-08-28 15:27:23.096 -07:00 [DBG] Start discovery request
+2019-08-28 15:27:47.267 -07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-08-28 15:27:47.267 -07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-08-28 15:27:47.267 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-08-28 15:27:47.267 -07:00 [DBG] Start discovery request
+2019-08-28 15:28:17.461 -07:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-08-28 15:28:17.461 -07:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-08-28 15:28:17.461 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-08-28 15:28:17.462 -07:00 [DBG] Start discovery request
+2019-08-28 15:30:42.102 -07:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-08-28 15:30:42.102 -07:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-08-28 15:30:42.103 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-08-28 15:30:42.103 -07:00 [WRN] Invalid HTTP request for token endpoint
+2019-08-28 15:30:49.862 -07:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-08-28 15:30:49.862 -07:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-08-28 15:30:49.863 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-08-28 15:30:49.863 -07:00 [DBG] Start token request.
+2019-08-28 15:30:49.863 -07:00 [DBG] Start client validation
+2019-08-28 15:30:49.863 -07:00 [DBG] Start parsing Basic Authentication secret
+2019-08-28 15:30:49.863 -07:00 [DBG] Start parsing for secret in post body
+2019-08-28 15:30:49.863 -07:00 [DBG] Parser found secret: PostBodySecretParser
+2019-08-28 15:30:49.863 -07:00 [DBG] Secret id found: fekberg
+2019-08-28 15:30:49.863 -07:00 [ERR] No client with id 'fekberg' found. aborting
+2019-08-28 15:31:30.879 -07:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-08-28 15:31:30.879 -07:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-08-28 15:31:30.880 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-08-28 15:31:30.880 -07:00 [DBG] Start token request.
+2019-08-28 15:31:30.880 -07:00 [DBG] Start client validation
+2019-08-28 15:31:30.880 -07:00 [DBG] Start parsing Basic Authentication secret
+2019-08-28 15:31:30.880 -07:00 [DBG] Start parsing for secret in post body
+2019-08-28 15:31:30.880 -07:00 [DBG] Parser found secret: PostBodySecretParser
+2019-08-28 15:31:30.880 -07:00 [DBG] Secret id found: fekberg
+2019-08-28 15:31:30.880 -07:00 [ERR] No client with id 'fekberg' found. aborting
