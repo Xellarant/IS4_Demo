@@ -3341,3 +3341,5 @@
 2019-08-29 02:36:15.953 -07:00 [INF] Successful signout callback.
 2019-08-29 02:36:15.953 -07:00 [DBG] No client front-channel iframe urls
 2019-08-29 02:36:15.953 -07:00 [DBG] No client back-channel iframe urls
+2019-08-29 02:46:09.362 -07:00 [DBG] Stopping grant removal
+2019-08-29 02:46:09.364 -07:00 [DBG] TaskCanceledException. Exiting.
