@@ -52,14 +52,14 @@ namespace IdentityServer
                     options.EnableTokenCleanup = true;
                 });
 
-            services.AddAuthentication()
-                .AddGoogle("Google", options =>
-                {
-                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+            //services.AddAuthentication()
+            //    .AddGoogle("Google", options =>
+            //    {
+            //        options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
 
-                    options.ClientId = "734085937045-r55bu75m3q5fck8kgo0i4td4giefsfnd.apps.googleusercontent.com";
-                    options.ClientSecret = "2cCBu3TxaCvZbIZJMW9g-E0b";
-                });
+            //        options.ClientId = "734085937045-r55bu75m3q5fck8kgo0i4td4giefsfnd.apps.googleusercontent.com";
+            //        options.ClientSecret = "2cCBu3TxaCvZbIZJMW9g-E0b";
+            //    });
 
             if (Environment.IsDevelopment())
             {

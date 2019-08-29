@@ -12,7 +12,7 @@ namespace IS_Client_2
             // discover endpoints from metadata
             var client = new HttpClient();
 
-            var disco = await client.GetDiscoveryDocumentAsync("https://localhost:44397");
+            var disco = await client.GetDiscoveryDocumentAsync("https://localhost:44321");
             if (disco.IsError)
             {
                 Console.WriteLine(disco.Error);
@@ -27,7 +27,7 @@ namespace IS_Client_2
                 ClientSecret = "secret",
 
                 UserName = "alice",
-                Password = "password",
+                Password = "Pass123$",
                 Scope = "api1"
             });
 
@@ -38,6 +38,7 @@ namespace IS_Client_2
             }
 
             Console.WriteLine(tokenResponse.Json);
+            Console.ReadKey();
         }
     }
 }

@@ -2,8 +2,11 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using IdentityServer4;
 using IdentityServer4.Models;
+using IdentityServer4.Test;
 using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace IdentityServerAspNetIdentity
 {
@@ -11,7 +14,7 @@ namespace IdentityServerAspNetIdentity
     {
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
-            return new IdentityResource[]
+            return new List<IdentityResource>
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
@@ -20,68 +23,140 @@ namespace IdentityServerAspNetIdentity
 
         public static IEnumerable<ApiResource> GetApis()
         {
-            return new ApiResource[]
+            return new List<ApiResource>
             {
-                new ApiResource("api1", "My API #1")
+                new ApiResource("api1", "My API")
             };
         }
 
         public static IEnumerable<Client> GetClients()
         {
-            return new[]
+            return new List<Client>
             {
-                // client credentials flow client
-                new Client
+                new Client // Authorization Code example
                 {
                     ClientId = "client",
-                    ClientName = "Client Credentials Client",
 
+                    // no interactive user, use the clientid/secret for authentication
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
 
+                    // secret for authentication
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+
+                    // scopes that client has access to
                     AllowedScopes = { "api1" }
                 },
 
-                // MVC client using hybrid flow
+                new Client // Resource Owner example
+                {
+                    ClientId = "ro.client",
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+                    AllowedScopes = { "api1" }
+                },
+
+                //// OpenID Connect implicit flow client (MVC)
+                //new Client
+                //{
+                //    ClientId = "mvc",
+                //    ClientName = "MVC Client",
+                //    AllowedGrantTypes = GrantTypes.Implicit,
+
+                //    // where to redirect to after login
+                //    RedirectUris = {"https://localhost:44319/signin-oidc"},
+
+                //    //where to redirect to after logout
+                //    PostLogoutRedirectUris = {"https://localhost:44319/signout-callback-oidc"},
+
+                //    AllowedScopes = new List<string>
+                //    {
+                //        IdentityServerConstants.StandardScopes.OpenId,
+                //        IdentityServerConstants.StandardScopes.Profile
+                //    }
+                //}
+
+                // OpenID Connect hybrid flow client (MVC)
                 new Client
                 {
                     ClientId = "mvc",
                     ClientName = "MVC Client",
+                    AllowedGrantTypes = GrantTypes.Hybrid,
 
-                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
-                    ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
 
-                    RedirectUris = { "http://localhost:5001/signin-oidc" },
-                    FrontChannelLogoutUri = "http://localhost:5001/signout-oidc",
-                    PostLogoutRedirectUris = { "http://localhost:5001/signout-callback-oidc" },
+                    RedirectUris           = { "https://localhost:44319/signin-oidc" }, // http port 5002 in demo
+                    PostLogoutRedirectUris = { "https://localhost:44319/signout-callback-oidc" },
 
-                    AllowOfflineAccess = true,
-                    AllowedScopes = { "openid", "profile", "api1" }
+                    AllowedScopes =
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "api1"
+                    },
+                    AllowOfflineAccess = true
                 },
 
-                // SPA client using code flow + pkce
+                // JavaScript Client
                 new Client
                 {
-                    ClientId = "spa",
-                    ClientName = "SPA Client",
-                    ClientUri = "http://identityserver.io",
-
+                    ClientId = "js",
+                    ClientName = "JavaScript Client",
                     AllowedGrantTypes = GrantTypes.Code,
                     RequirePkce = true,
                     RequireClientSecret = false,
 
-                    RedirectUris =
+                    RedirectUris =           { "https://localhost:44375/callback.html" }, // http port 5003 in demo
+                    PostLogoutRedirectUris = { "https://localhost:44375/index.html" },
+                    AllowedCorsOrigins =     { "https://localhost:44375" },
+
+                    AllowedScopes =
                     {
-                        "http://localhost:5002/index.html",
-                        "http://localhost:5002/callback.html",
-                        "http://localhost:5002/silent.html",
-                        "http://localhost:5002/popup.html",
-                    },
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "api1"
+                    }
+                }
+            };
+        }
 
-                    PostLogoutRedirectUris = { "http://localhost:5002/index.html" },
-                    AllowedCorsOrigins = { "http://localhost:5002" },
+        public static List<TestUser> GetUsers()
+        {
+            return new List<TestUser>
+            {
+                new TestUser
+                {
+                    SubjectId = "1",
+                    Username = "alice",
+                    Password = "password",
 
-                    AllowedScopes = { "openid", "profile", "api1" }
+                    Claims = new []
+                    {
+                        new Claim("name", "Alice"),
+                        new Claim("website", "https://alice.com")
+                    }
+                },
+
+                new TestUser
+                {
+                    SubjectId = "2",
+                    Username = "bob",
+                    Password = "password",
+
+                    Claims = new []
+                    {
+                        new Claim("name", "Bob"),
+                        new Claim("website", "https://bob.com")
+                    }
                 }
             };
         }

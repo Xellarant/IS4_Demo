@@ -1,21 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{0DA2DE49-34E3-433C-9AED-52E627AC8A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS API Secured", "IS API\IS API Secured.csproj", "{B03E8AC6-6D0F-4CE0-897C-71365A393D3E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS API", "IS API\IS API.csproj", "{B03E8AC6-6D0F-4CE0-897C-71365A393D3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS Client Client", "IS Client\IS Client Client.csproj", "{596A253C-9E99-4905-9B06-5E277A50B900}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS Client", "IS Client\IS Client.csproj", "{596A253C-9E99-4905-9B06-5E277A50B900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS Client Resource Owner", "IS Client 2\IS Client Resource Owner.csproj", "{5B38BAFB-0490-4486-980F-3C0414F123D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS Client 2", "IS Client 2\IS Client 2.csproj", "{5B38BAFB-0490-4486-980F-3C0414F123D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC Client Hybrid", "WebApplication1\MVC Client Hybrid.csproj", "{4D04B051-FC57-4B6A-9CC8-0BAA52C3DBC6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore WebApplication1", "WebApplication1\NetCore WebApplication1.csproj", "{4D04B051-FC57-4B6A-9CC8-0BAA52C3DBC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS Client Auth Code", "JS Client\JS Client Auth Code.csproj", "{6FAED7D4-E719-4FC9-B8F3-F91B89DA96ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS Client", "JS Client\JS Client.csproj", "{6FAED7D4-E719-4FC9-B8F3-F91B89DA96ED}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{5029702F-AEC0-4AD6-9192-C6045C638767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{DE8296EE-70F1-4671-B682-1494BDA8CA80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Debug|x64.Build.0 = Debug|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Debug|x86.Build.0 = Debug|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Release|x64.ActiveCfg = Release|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Release|x64.Build.0 = Release|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Release|x86.ActiveCfg = Release|Any CPU
-		{0DA2DE49-34E3-433C-9AED-52E627AC8A18}.Release|x86.Build.0 = Release|Any CPU
 		{B03E8AC6-6D0F-4CE0-897C-71365A393D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B03E8AC6-6D0F-4CE0-897C-71365A393D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03E8AC6-6D0F-4CE0-897C-71365A393D3E}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -99,18 +85,18 @@ Global
 		{6FAED7D4-E719-4FC9-B8F3-F91B89DA96ED}.Release|x64.Build.0 = Release|Any CPU
 		{6FAED7D4-E719-4FC9-B8F3-F91B89DA96ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{6FAED7D4-E719-4FC9-B8F3-F91B89DA96ED}.Release|x86.Build.0 = Release|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Debug|x64.Build.0 = Debug|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Debug|x86.Build.0 = Debug|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Release|x64.ActiveCfg = Release|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Release|x64.Build.0 = Release|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Release|x86.ActiveCfg = Release|Any CPU
-		{5029702F-AEC0-4AD6-9192-C6045C638767}.Release|x86.Build.0 = Release|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Debug|x86.Build.0 = Debug|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Release|x64.Build.0 = Release|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE8296EE-70F1-4671-B682-1494BDA8CA80}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

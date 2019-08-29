@@ -1,0 +1,11 @@
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client Resource Owner.deps.json
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client Resource Owner.runtimeconfig.json
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client Resource Owner.runtimeconfig.dev.json
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client Resource Owner.dll
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\bin\Debug\netcoreapp2.2\IS Client Resource Owner.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client Resource Owner.csproj.CoreCompileInputs.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client Resource Owner.AssemblyInfoInputs.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client Resource Owner.AssemblyInfo.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client Resource Owner.dll
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client Resource Owner.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS Client 2\obj\Debug\netcoreapp2.2\IS Client Resource Owner.csprojAssemblyReference.cache

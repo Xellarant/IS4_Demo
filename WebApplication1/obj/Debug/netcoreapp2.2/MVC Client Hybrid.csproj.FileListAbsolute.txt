@@ -1,0 +1,32 @@
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.deps.json
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.runtimeconfig.json
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.runtimeconfig.dev.json
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.dll
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.Views.dll
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\bin\Debug\netcoreapp2.2\MVC Client Hybrid.Views.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.csproj.CoreCompileInputs.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.RazorAssemblyInfo.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.RazorAssemblyInfo.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.AssemblyInfoInputs.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.AssemblyInfo.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.TagHelpers.input.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.TagHelpers.output.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.RazorCoreGenerate.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Home\json.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.RazorTargetAssemblyInfo.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.RazorTargetAssemblyInfo.cs
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.Views.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.dll
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.csproj.CopyComplete
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\MVC Client Hybrid.csprojAssemblyReference.cache
+C:\Users\rhunt\source\repos\IdentityServer4Demo\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Claims.g.cshtml.cs

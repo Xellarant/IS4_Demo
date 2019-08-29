@@ -49,7 +49,7 @@ namespace WebApplication1
             {
                 options.SignInScheme = "Cookies";
 
-                options.Authority = "https://localhost:44397";
+                options.Authority = "https://localhost:44321";
                 options.RequireHttpsMetadata = false;
 
                 options.ClientId = "mvc";

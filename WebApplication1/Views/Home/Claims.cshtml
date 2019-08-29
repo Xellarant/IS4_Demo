@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "(Secured) Claims Page";
+}
+
+@using Microsoft.AspNetCore.Authentication
+
+
+<h2>Claims</h2>
+
+<a asp-controller="Home" asp-action="CallApi"><p>Call Api using User Token</p></a>
+
+<dl>
+    @foreach (var claim in User.Claims)
+    {
+        <dt>@claim.Type</dt>
+        <dd>@claim.Value</dd>
+    }
+</dl>
+
+<h2>Properties</h2>
+
+<dl>
+    @foreach (var prop in (await Context.AuthenticateAsync()).Properties.Items)
+    {
+        <dt>@prop.Key</dt>
+        <dd>@prop.Value</dd>
+    }
+</dl>

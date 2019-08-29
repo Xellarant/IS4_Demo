@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ralla\\source\\repos\\IS4 Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj": {}
+    "C:\\Users\\rhunt\\source\\repos\\IdentityServer4Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ralla\\source\\repos\\IS4 Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj": {
+    "C:\\Users\\rhunt\\source\\repos\\IdentityServer4Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ralla\\source\\repos\\IS4 Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
+        "projectUniqueName": "C:\\Users\\rhunt\\source\\repos\\IdentityServer4Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
         "projectName": "IdentityServerAspNetIdentity",
-        "projectPath": "C:\\Users\\Ralla\\source\\repos\\IS4 Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
-        "packagesPath": "C:\\Users\\Ralla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ralla\\source\\repos\\IS4 Demo\\IdentityServerAspNetIdentity\\obj\\",
+        "projectPath": "C:\\Users\\rhunt\\source\\repos\\IdentityServer4Demo\\IdentityServerAspNetIdentity\\IdentityServerAspNetIdentity.csproj",
+        "packagesPath": "C:\\Users\\rhunt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rhunt\\source\\repos\\IdentityServer4Demo\\IdentityServerAspNetIdentity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ralla\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\rhunt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"

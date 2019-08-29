@@ -14,9 +14,14 @@ using WebApplication1.Models;
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
-    {
-        [Authorize]
+    {        
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Claims()
         {
             return View();
         }
@@ -39,7 +44,7 @@ namespace WebApplication1.Controllers
 
             var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-            var content = await client.GetStringAsync("https://localhost:44327/identity");
+            var content = await client.GetStringAsync("https://localhost:44322/identity");
 
             ViewBag.Json = JArray.Parse(content).ToString();
             return View("json");

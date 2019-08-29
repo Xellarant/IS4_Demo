@@ -24,7 +24,7 @@ namespace IS_API
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "https://localhost:44397";
+                    options.Authority = "https://localhost:44321";
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "api1";
