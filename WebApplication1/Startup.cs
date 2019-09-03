@@ -49,7 +49,7 @@ namespace WebApplication1
             {
                 options.SignInScheme = "Cookies";
 
-                options.Authority = "https://localhost:44321";
+                options.Authority = "https://localhost:44397";
                 options.RequireHttpsMetadata = false;
 
                 options.ClientId = "mvc";
@@ -62,6 +62,11 @@ namespace WebApplication1
                 options.Scope.Add("api1");
                 options.Scope.Add("offline_access");
                 options.ClaimActions.MapJsonKey("website", "website");
+                options.ClaimActions.MapJsonKey("nickname", "nickname");
+                options.ClaimActions.MapJsonKey("preferred_username", "preferred_username");
+                options.ClaimActions.MapJsonKey("gender", "gender");
+                options.ClaimActions.MapJsonKey("birthdate", "birthdate");
+                options.ClaimActions.MapJsonKey("updated_at", "updated_at");
             });
         }
 

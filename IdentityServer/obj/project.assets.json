@@ -8449,7 +8449,7 @@
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.5.0": {
-      "sha512": "eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg==",
+      "sha512": "6FOtRhyWVDV6SOxcGDvi6Dh/5juF+JubH+J9PVAIRrUB3JNuzRi+p39F8jH+6FZsJR7RjTbpFvH8ZZmd6di9Lg==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/4.5.0",
       "files": [
@@ -9730,7 +9730,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.3.0": {
-      "sha512": "yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
+      "sha512": "HpnixxmBSLTYLFrxhrI3/znmIm3p3mBSac6HeKIzV/FmIIYrobZi70YmOwwcIM9VLiqIg2ybM7Nhq09/epgueA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
@@ -12102,7 +12102,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "c4d37I+wY8o6sGYxzmw/T6Q7FXNTzt8+n2XwILDzrxdh6Cv62t43zRbJwK1WRv3J/Ut4LDyqYsE/LHVQnDuDyw==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [

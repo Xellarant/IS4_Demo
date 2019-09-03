@@ -22,5 +22,10 @@
       },
       "applicationUrl": "https://localhost:44397"
     }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=EESQLDEV01; Database=IdentityServer4; User Id=eesqldev01user; password=eesqldev01user",
+    "DevelopmentConnection": "Server=EESQLDEV01; Database=IdentityServer4; User Id=eesqldev01user; password=eesqldev01user"
   }
+  
 }

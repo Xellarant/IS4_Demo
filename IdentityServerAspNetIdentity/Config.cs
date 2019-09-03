@@ -62,27 +62,7 @@ namespace IdentityServerAspNetIdentity
                     AllowedScopes = { "api1" }
                 },
 
-                //// OpenID Connect implicit flow client (MVC)
-                //new Client
-                //{
-                //    ClientId = "mvc",
-                //    ClientName = "MVC Client",
-                //    AllowedGrantTypes = GrantTypes.Implicit,
-
-                //    // where to redirect to after login
-                //    RedirectUris = {"https://localhost:44319/signin-oidc"},
-
-                //    //where to redirect to after logout
-                //    PostLogoutRedirectUris = {"https://localhost:44319/signout-callback-oidc"},
-
-                //    AllowedScopes = new List<string>
-                //    {
-                //        IdentityServerConstants.StandardScopes.OpenId,
-                //        IdentityServerConstants.StandardScopes.Profile
-                //    }
-                //}
-
-                // OpenID Connect hybrid flow client (MVC)
+                // OpenID Connect hybrid flow client (MVC site)
                 new Client
                 {
                     ClientId = "mvc",
@@ -129,36 +109,36 @@ namespace IdentityServerAspNetIdentity
             };
         }
 
-        public static List<TestUser> GetUsers()
-        {
-            return new List<TestUser>
-            {
-                new TestUser
-                {
-                    SubjectId = "1",
-                    Username = "alice",
-                    Password = "password",
+        //public static List<TestUser> GetUsers()
+        //{
+        //    return new List<TestUser>
+        //    {
+        //        new TestUser
+        //        {
+        //            SubjectId = "1",
+        //            Username = "alice",
+        //            Password = "password",
 
-                    Claims = new []
-                    {
-                        new Claim("name", "Alice"),
-                        new Claim("website", "https://alice.com")
-                    }
-                },
+        //            Claims = new []
+        //            {
+        //                new Claim("name", "Alice"),
+        //                new Claim("website", "https://alice.com")
+        //            }
+        //        },
 
-                new TestUser
-                {
-                    SubjectId = "2",
-                    Username = "bob",
-                    Password = "password",
+        //        new TestUser
+        //        {
+        //            SubjectId = "2",
+        //            Username = "bob",
+        //            Password = "password",
 
-                    Claims = new []
-                    {
-                        new Claim("name", "Bob"),
-                        new Claim("website", "https://bob.com")
-                    }
-                }
-            };
-        }
+        //            Claims = new []
+        //            {
+        //                new Claim("name", "Bob"),
+        //                new Claim("website", "https://bob.com")
+        //            }
+        //        }
+        //    };
+        //}
     }
 }

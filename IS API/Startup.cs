@@ -24,7 +24,7 @@ namespace IS_API
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "https://localhost:44321";
+                    options.Authority = "https://localhost:44321"; //TODO: connect to dev auth once published
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "api1";

@@ -11,3 +11,4 @@ C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\I
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\IS API Secured.RazorTargetAssemblyInfo.cache
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\IS API Secured.dll
 C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\IS API Secured.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\IS API\obj\Debug\netcoreapp2.2\IS API Secured.csprojAssemblyReference.cache

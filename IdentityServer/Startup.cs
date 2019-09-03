@@ -11,29 +11,32 @@ using IdentityServer4.EntityFramework.Mappers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace IdentityServer
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
         public IHostingEnvironment Environment { get; }
 
-        public Startup(IHostingEnvironment environment)
+        public Startup(IConfiguration configuration, IHostingEnvironment environment)
         {
+            Configuration = configuration;
             Environment = environment;
         }
 
         public void ConfigureServices(IServiceCollection services)
         {
-            const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServer4.Quickstart.EntityFramework-2.0.0;trusted_connection=yes;";
+            string connectionString = Configuration.GetConnectionString("DefaultConnection");
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             // uncomment, if you want to add an MVC-based UI
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
             var builder = services.AddIdentityServer()
-                .AddTestUsers(Config.GetUsers())
+                //.AddTestUsers(Config.GetUsers())
                 // this adds the config data from DB (clients, resources)
                 .AddConfigurationStore(options =>
                 {
@@ -49,7 +52,7 @@ namespace IdentityServer
                             sql => sql.MigrationsAssembly(migrationsAssembly));
 
                     // this enables automatic token cleanup. this is optional.
-                    options.EnableTokenCleanup = true;
+                   options.EnableTokenCleanup = true;
                 });
 
             //services.AddAuthentication()
@@ -74,7 +77,7 @@ namespace IdentityServer
         public void Configure(IApplicationBuilder app)
         {
             //// this will do the initial DB population
-            //InitializeDatabase(app);
+            ///InitializeDatabase(app);
 
             if (Environment.IsDevelopment())
             {
@@ -90,41 +93,41 @@ namespace IdentityServer
             app.UseMvcWithDefaultRoute();
         }
 
-        private void InitializeDatabase(IApplicationBuilder app)
-        {
-            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
-            {
-                serviceScope.ServiceProvider.GetRequiredService<PersistedGrantDbContext>().Database.Migrate();
+        //private void InitializeDatabase(IApplicationBuilder app)
+        //{
+        //    using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+        //    {
+        //        serviceScope.ServiceProvider.GetRequiredService<PersistedGrantDbContext>().Database.Migrate();
 
-                var context = serviceScope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
-                context.Database.Migrate();
-                if (!context.Clients.Any())
-                {
-                    foreach (var client in Config.GetClients())
-                    {
-                        context.Clients.Add(client.ToEntity());
-                    }
-                    context.SaveChanges();
-                }
+        //        var context = serviceScope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
+        //        context.Database.Migrate();
+        //        if (!context.Clients.Any())
+        //        {
+        //            foreach (var client in Config.GetClients())
+        //            {
+        //                context.Clients.Add(client.ToEntity());
+        //            }
+        //            context.SaveChanges();
+        //        }
 
-                if (!context.IdentityResources.Any())
-                {
-                    foreach (var resource in Config.GetIdentityResources())
-                    {
-                        context.IdentityResources.Add(resource.ToEntity());
-                    }
-                    context.SaveChanges();
-                }
+        //        if (!context.IdentityResources.Any())
+        //        {
+        //            foreach (var resource in Config.GetIdentityResources())
+        //            {
+        //                context.IdentityResources.Add(resource.ToEntity());
+        //            }
+        //            context.SaveChanges();
+        //        }
 
-                if (!context.ApiResources.Any())
-                {
-                    foreach (var resource in Config.GetApis())
-                    {
-                        context.ApiResources.Add(resource.ToEntity());
-                    }
-                    context.SaveChanges();
-                }
-            }
-        }
+        //        if (!context.ApiResources.Any())
+        //        {
+        //            foreach (var resource in Config.GetApis())
+        //            {
+        //                context.ApiResources.Add(resource.ToEntity());
+        //            }
+        //            context.SaveChanges();
+        //        }
+        //    }
+        //}
     }
 }

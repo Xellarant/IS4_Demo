@@ -11,3 +11,4 @@ C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.
 C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client Auth Code.RazorTargetAssemblyInfo.cache
 C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client Auth Code.dll
 C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client Auth Code.pdb
+C:\Users\rhunt\source\repos\IdentityServer4Demo\JS Client\obj\Debug\netcoreapp2.2\JS Client Auth Code.csprojAssemblyReference.cache

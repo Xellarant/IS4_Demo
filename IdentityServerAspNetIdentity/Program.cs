@@ -17,7 +17,7 @@ namespace IdentityServerAspNetIdentity
     {
         public static void Main(string[] args)
         {
-            var seed = args.Any(x => x == "/seed");
+            var seed = true;
             if (seed) args = args.Except(new[] { "/seed" }).ToArray();
 
             var host = CreateWebHostBuilder(args).Build();
@@ -26,7 +26,7 @@ namespace IdentityServerAspNetIdentity
             {
                 var config = host.Services.GetRequiredService<IConfiguration>();
                 var connectionString = config.GetConnectionString("DefaultConnection");
-                SeedData.EnsureSeedData(connectionString);
+                //SeedData.EnsureIdentitySeedData(connectionString);
                 return;
             }
 
